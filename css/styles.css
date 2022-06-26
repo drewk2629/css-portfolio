@@ -11,22 +11,61 @@ Potential Color Palette
 ----------------------------------------*/
 body {
     color: #080705ff;
+    margin: 0;
+    padding: 0;
 }
 
 img {
     width: 300px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
 /* Profile styles
 ----------------------------------------*/
 header {
     background: #5c9eadff;
+    color: antiquewhite;
 }
 
 /* Projects styles
 ----------------------------------------*/
 .projects {
-    background: #a1e8afff;
+    background: antiquewhite;
+}
+
+.projects a {
+    background: #735290ff;
+}
+
+.projects .btn {
+    background:  #080705ff;
+    color: #5c9eadff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(8, 7, 5, 80%);
+    color: #f4a261ff;
 }
 
 /* Work experience styles
@@ -38,9 +77,22 @@ header {
 
 /* Education styles
 ----------------------------------------*/
+.education {
+    background: #f4a261ff;
+}
 
 /* Contact styles
 ----------------------------------------*/
-footer {
-    background: #5c9eadff;
+.footer {
+    background: #343432;
+    color: antiquewhite;
+}
+
+.footer .link {
+    color: antiquewhite;
+}
+
+.footer .link:hover {
+    color: #f4a261ff;
+    text-decoration: none;
 }
