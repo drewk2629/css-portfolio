@@ -1,3 +1,46 @@
+/*
+Potential Color Palette
+--black: #080705ff;
+--cadet-blue: #5c9eadff;
+--celadon: #a1e8afff;
+--royal-purple: #735290ff;
+--sandy-brown: #f4a261ff;
+*/
+
+/* Global styles
+----------------------------------------*/
+body {
+    color: #080705ff;
+}
+
 img {
     width: 300px;
+}
+
+/* Profile styles
+----------------------------------------*/
+header {
+    background: #5c9eadff;
+}
+
+/* Projects styles
+----------------------------------------*/
+.projects {
+    background: #a1e8afff;
+}
+
+/* Work experience styles
+----------------------------------------*/
+.work-experience {
+    background: #735290ff;
+    color: antiquewhite;
+}
+
+/* Education styles
+----------------------------------------*/
+
+/* Contact styles
+----------------------------------------*/
+footer {
+    background: #5c9eadff;
 }
