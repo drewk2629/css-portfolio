@@ -17,8 +17,8 @@
           <h1>Drew Knoeller</h1>
           <h2>Full Stack Web Developer</h2>
 
-          <p>Junior Full Stack developer and recent graduate of The University of North Carolina Chapel Hill's Coding Bootcamp.</p>
-          <p>I am embracing the flow of technology and will continue to grow into the developer I aspire to be.</p>
+          <p>Junior Full Stack developer and recent graduate of The University of North Carolina Chapel Hill's Coding Bootcamp.
+             I am embracing the flow of technology and will continue to grow into the developer I aspire to be. I am always learning new things!</p>
         </div>
       </header>
 
@@ -29,14 +29,19 @@
           <p>I'm showcasing some of the projects I'm most proud of as of today.</p>
 
           <!-- Copy the whole <section> block to add more projects. -->
-          <section>
-            <h3>Social Network API</h3>
-            <img src="images/social-network-api.jpg" alt="Social Network API I created using express.js, Mongoose and MongoDB"><br>
-            <a class="btn" href="https://github.com/drewk2629/social-network-api" target="_blank">View project repository on GitHub</a>
-            <p>The concept of this project was for a Social Media start up company.
-              It uses a NoSQL database, in this case I went with Mongoose.
-              It's designed to handle large amounts of unstructured data, and that's why Mongoose was the perfect fit!</p>
-          </div>
+          <section class="project-item">
+            <div class="project-image">
+            <img src="images/social-network-api.jpg" alt="Social Network API I created using express.js, Mongoose and MongoDB">
+            </div>
+            <section class="project-description">
+              <div class="float-right">
+              <h3>Social Network API</h3>
+                <p>The concept of this project was for a Social Media start up company.
+                   It uses a NoSQL database, in this case I went with Mongoose.
+                   It's designed to handle large amounts of unstructured data, and that's why Mongoose was the perfect fit!</p>
+                  <a class="btn" href="https://github.com/drewk2629/social-network-api" target="_blank">View project repository on GitHub</a>
+                </div>
+              </section>
         </section>
         <!-- End of Project block. -->
       </section>
@@ -45,29 +50,39 @@
       <section class="work-experience">
         <div class="content-wrap">
           <h2>Work Experience</h2>
-          <p>I have not had the opportunity to land a job as a developer yet being a new grad.
-            But my work experience below should show you just how dedicated I am to a profession.</p>
+          <p>I have not had the opportunity to land a job as a developer yet being a new grad,
+             but my work experience below should show you just how dedicated I am to a profession.</p>
 
           <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Certified Pharmacy Technician</h3>
-            <p>Gurley's Pharmacy</p>
-            <p>March 2016 - current</p>
-            <p>Mange high volume prescription intake in a timely manner.</p>
-            <p>Responsibilities include:</p>
-            <ul>
-              <li>Interpret and enter new prescriptions.</li>
-              <li>Input and access patient 3rd party for billing insurance claims.</li>
-              <li>Inventory management.</li>
-              <li>Great computer and data handling skills.</li>
-              <li>Superb oral and written communication skills.</li>
-              <li>Experience working in a fast paced environment.</li>
-              <li>Knowledgeable with safety procedures and HIPAA confidential privacy.</li>
-            </ul>
-            <h3>Lead Pharmacy Technician</h3>
-            <p>CVS Pharmacy</p>
-            <p>June 2009 - March 2016</p>
-            <p>Manager of the pharmacy department under direct supervision of the pharmacist in charge.</p>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Certified Pharmacy Technician</h3>
+              <p>Gurley's Pharmacy</p>
+              <p>March 2016 - current</p>
+            </div>
+            <div class="job-summary">
+              <p>Mange high volume prescription intake in a timely manner.</p>
+              <p>Responsibilities include:</p>
+              <ul>
+                <li>Interpret and enter new prescriptions.</li>
+                <li>Input and access patient 3rd party for billing insurance claims.</li>
+                <li>Inventory management.</li>
+                <li>Great computer and data handling skills.</li>
+                <li>Superb oral and written communication skills.</li>
+                <li>Experience working in a fast paced environment.</li>
+                <li>Knowledgeable with safety procedures and HIPAA confidential privacy.</li>
+              </ul>
+            </div>
+          </section>
+            <section class="job-item">
+              <div class="job-details">
+                <h3>Lead Pharmacy Technician</h3>
+                <p>CVS Pharmacy</p>
+                <p>June 2009 - March 2016</p>
+              </div>
+              <div class="job-summary">
+              <p>Manager of the pharmacy department under direct supervision of the pharmacist in charge.</p>
+              </div>
         </section>
         <!-- End of Job block. -->
         </div>
@@ -97,7 +112,7 @@
           <h2>Contact Me</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
-          <ul>
+          <ul class="contact-list">
             <li><a class="link" href="mailto:drewk2629@gmail.com">Email</a></li>
             <li><a class="link" href="https://github.com/drewk2629" target="_blank">GitHub</a></li>
             <!-- <li><a href="#" target="_blank">Twitter</a></li> -->

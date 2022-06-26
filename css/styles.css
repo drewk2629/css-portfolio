@@ -9,6 +9,14 @@ Potential Color Palette
 
 /* Global styles
 ----------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     color: #080705ff;
     margin: 0;
@@ -34,6 +42,7 @@ h1 {
     font-size: 90px;
     line-height: 1;
 }
+
 h2 {
     font-size: 45px;
 }
@@ -55,6 +64,7 @@ h1, h2 {
 header {
     background: #5c9eadff;
     color: antiquewhite;
+    text-align: center;
 }
 
 /* Projects styles
@@ -73,7 +83,8 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
-    display: inline-block;
+    float: right;
+    margin-right: 212px;
 }
 
 .projects .btn:hover {
@@ -81,11 +92,41 @@ header {
     color: #f4a261ff;
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px solid #343432;
+    padding: 25px 0;
+}
+
+.project-item img {
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+.project-item .project-image {
+    float: left;
+    overflow: hidden;
+}
+
+.project-description .project-info {
+    float: right;
+    overflow: hidden;
+}
+
 /* Work experience styles
 ----------------------------------------*/
 .work-experience {
     background: #735290ff;
     color: antiquewhite;
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
 }
 
 /* Education styles
@@ -100,6 +141,7 @@ header {
 .footer {
     background: #343432;
     color: antiquewhite;
+    text-align: center;
 }
 
 .footer .link {
@@ -109,4 +151,16 @@ header {
 .footer .link:hover {
     color: #f4a261ff;
     text-decoration: none;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
