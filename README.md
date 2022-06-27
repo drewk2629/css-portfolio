@@ -16,4 +16,4 @@ I will be continually updating, eventually converting to a React page.
 
 ## Live URL
 
-drewk2629.github.io/css-portfolio/
+[drewk2629.github.io/css-portfolio/](https://drewk2629.github.io/css-portfolio/)
