@@ -149,7 +149,7 @@ header {
     color:  #343432;
     background-image: url(../images/education.jpg);
     background-size: cover;
-    background-position: top right;
+    background-position: center;
     padding-bottom: 25px;
 }
 
