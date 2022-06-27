@@ -88,7 +88,6 @@ h1, h2 {
 header {
     background: #5c9eadff;
     color: antiquewhite;
-    text-align: center;
 }
 
 /* Projects styles
@@ -163,7 +162,6 @@ header {
 .footer {
     background: #343432;
     color: antiquewhite;
-    text-align: center;
 }
 
 .footer .link {
@@ -178,8 +176,6 @@ header {
 .contact-list {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 .contact-list a {
@@ -190,6 +186,10 @@ header {
 /* Media queries
 ----------------------------------------*/
 @media screen and (min-width:750px){
+    header, footer {
+        text-align: center;
+    }
+    
     .project-item img {
         float: left;
         margin-right: 20px;
@@ -199,5 +199,22 @@ header {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
+    }
+
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:749px) {
+    h1 {
+        font-size: 60px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        line-height: 1;
     }
 }
