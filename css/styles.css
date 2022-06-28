@@ -88,6 +88,12 @@ h1, h2 {
 header {
     background: #5c9eadff;
     color: antiquewhite;
+    background-image: url(../images/web-design-head.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .80);
+    background-blend-mode: darken;
+    background-position: center;
 }
 
 /* Projects styles
@@ -102,7 +108,7 @@ header {
 
 .projects .btn {
     background:  #343432;
-    color: #5c9eadff;
+    color: rgb(205, 155, 250);
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -131,6 +137,11 @@ header {
 .work-experience {
     background: #735290ff;
     color: antiquewhite;
+    background-image: url(../images/purple-gradient.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .50);
+    background-blend-mode: darken;
 }
 
 .work-experience .divider > section {
@@ -149,8 +160,7 @@ header {
     color:  #343432;
     background-image: url(../images/education.jpg);
     background-size: cover;
-    background-position: center;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .education p {
@@ -162,6 +172,10 @@ header {
 .footer {
     background: #343432;
     color: antiquewhite;
+    background-image: url(../images/gray-gradient.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .70);
+    background-blend-mode: darken;
 }
 
 .footer .link {
