@@ -60,6 +60,7 @@ h1, h2 {
     width: 85%;
     margin: 0 auto;
     padding: 60px 0;
+    
 }
 
 .item-details h3 {
@@ -94,12 +95,18 @@ header {
     background-color: rgba(0, 0, 0, .80);
     background-blend-mode: darken;
     background-position: center;
+    position: relative;
+    filter: drop-shadow(0 0 2rem #080705ff);
+    z-index: 5;
 }
 
 /* Projects styles
 ----------------------------------------*/
 .projects {
     background: antiquewhite;
+    position: relative;
+    filter: drop-shadow(0 0 2rem #080705ff);
+    z-index: 4;
 }
 
 .projects a {
@@ -142,6 +149,9 @@ header {
     background-position: center;
     background-color: rgba(0, 0, 0, .50);
     background-blend-mode: darken;
+    position: relative;
+    filter: drop-shadow(0 0 2rem #080705ff);
+    z-index: 3;
 }
 
 .work-experience .divider > section {
@@ -161,6 +171,9 @@ header {
     background-image: url(../images/education.jpg);
     background-size: cover;
     padding-bottom: 20px;
+    position: relative;
+    filter: drop-shadow(0 0 2rem #080705ff);
+    z-index: 2;
 }
 
 .education p {
@@ -176,6 +189,8 @@ header {
     background-size: cover;
     background-color: rgba(0, 0, 0, .70);
     background-blend-mode: darken;
+    filter: drop-shadow(0 0 2rem #080705ff);
+    z-index: 1;
 }
 
 .footer .link {
