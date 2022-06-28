@@ -1,7 +1,7 @@
 # css-portfolio
 
 ## About
-Responsive portfolio and resume built with just HTML and CSS. No packages or frameworks, just a few Google fonts.
+Responsive portfolio and resume built with just HTML and CSS. No packages or frameworks, just a few Google fonts and some stock images from shutterstock.
 I will be continually updating, eventually converting to a React page.
 
 ## Screenshots
