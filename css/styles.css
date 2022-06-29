@@ -171,7 +171,7 @@ header {
     background-image: url(../images/education.jpg);
     background-size: cover;
     padding-bottom: 20px;
-    position:fixed
+    position: fixed;
     filter: drop-shadow(0 0 2rem #080705ff);
     z-index: 2;
 }
